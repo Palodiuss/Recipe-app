@@ -1,0 +1,24 @@
+{
+  "name": "recipe-app",
+  "version": "1.0.0",
+  "description": "recipe app project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/palodiuss/Recipe-app.git"
+  },
+  "author": "Patryk Jakubiec",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {}
+}
